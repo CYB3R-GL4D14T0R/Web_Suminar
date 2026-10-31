@@ -77,8 +77,20 @@
 .hero-text {
   text-align: center;
   padding: 25px 10px;
+  background-color: #355E3B; /* Hijau dop */
+  color: #8B0000;            /* Merah dop */
+  border-radius: 10px;
 }
 
+.hero-text h2 {
+  color: #8B0000;
+  font-weight: 800;
+}
+
+.hero-text p {
+  color: #8B0000;
+  font-weight: 600;
+}
 /* Tampilan HP */
 @media (max-width: 768px) {
   .frame-grid {
