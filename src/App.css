@@ -101,3 +101,33 @@
     height: 130px;
   }
 }
+.about-header {
+  text-align: center;
+  padding: 35px 15px;
+  background: linear-gradient(
+    135deg,
+    #183c28,
+    #355e3b,
+    #172b20
+  );
+  border-radius: 12px;
+  border-bottom: 5px solid #8b0000;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.25);
+}
+
+.about-header h2 {
+  color: #ffd700;
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  margin-bottom: 12px;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.about-header p {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 0;
+}
