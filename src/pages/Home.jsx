@@ -16,10 +16,10 @@ function Home() {
   return (
     <section className="home">
 
-      <div className="hero-text">
+      {/* <div className="hero-text">
         <h2>YOUR CAR, OUR CARE</h2>
         <p>Professional Car Wash & Detailing</p>
-      </div>
+      </div> */}
 
       <div className="frame-grid">
 

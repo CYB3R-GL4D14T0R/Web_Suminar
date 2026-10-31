@@ -8,12 +8,28 @@
 }
 
 .header {
-  background: #111827;
-  color: white;
-  padding: 18px;
+  background-color: #355E3B;
+  color: #8B0000;
   text-align: center;
+  padding: 20px 10px;
+  border-bottom: 3px solid #8B0000;
 }
 
+.header h1 {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: #8B0000;
+}
+
+/* Tampilan HP */
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 22px;
+  }
+}
 .content {
   flex: 1;
   padding: 20px;
@@ -73,24 +89,7 @@
   margin-top: 10px;
 }
 
-/* Hero */
-.hero-text {
-  text-align: center;
-  padding: 25px 10px;
-  background-color: #355E3B; /* Hijau dop */
-  color: #8B0000;            /* Merah dop */
-  border-radius: 10px;
-}
 
-.hero-text h2 {
-  color: #8B0000;
-  font-weight: 800;
-}
-
-.hero-text p {
-  color: #8B0000;
-  font-weight: 600;
-}
 /* Tampilan HP */
 @media (max-width: 768px) {
   .frame-grid {
